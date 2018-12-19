@@ -10,9 +10,16 @@ Can be installed with stack:
 
 ## Usage
 
-Takes the name of STL files on the commandline:
+Takes the name of STL text files on the commandline:
 
-    $ stlarea test.stl test.stl test.stl
+    $ stlareatext test.stl test.stl test.stl
+    test.stl: 72281.990
+    test.stl: 72281.990
+    test.stl: 72281.990
+
+Takes the name of STL binary files on the commandline:
+
+    $ stlareabinary test.stl test.stl test.stl
     test.stl: 72281.990
     test.stl: 72281.990
     test.stl: 72281.990
